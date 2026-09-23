@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Admin Sekolah",
+    "email": "admin@lms.sch.id",
+    "roleId": "admin",
+    "passwordHash": "62fb5670420cfa2a057e9a53edf7ca93:b0ed9b3d67412632cce159778afd7f21c2a765c473d8663df324838f8bc09870ac6709f1e0cd721ef273659d782e82f834d8dc52213b7a20cbbce24c99921b89"
+  },
+  {
+    "name": "Bu Sari",
+    "email": "guru@lms.sch.id",
+    "roleId": "guru",
+    "passwordHash": "ec5d593099301c33a0363b8c3828a727:d4fb0d8f9fa378bf25369e3d444da3d8adcc2defe9670c0ffc7c2f59e4f604ec2c9e5027ec16f5f40673cd27403f9edd1141dc510235e5e194d29f4086f60502"
+  },
+  {
+    "name": "Ahmad Fauzi",
+    "email": "siswa@lms.sch.id",
+    "roleId": "siswa",
+    "passwordHash": "e98ff2cfa2a4db87cb302b71b6152c38:62fa6445daed38c28e386205e38314a7cef480acd711718a28b8c62d10ee07dea66e939b792ac020f7c7d47a12e7988b324687113eeb0af1b53d8787358ab8c8"
+  },
+  {
+    "name": "Kepala Sekolah",
+    "email": "kepsek@lms.sch.id",
+    "roleId": "kepsek",
+    "passwordHash": "fa0fa1c3bafc67e7f149ff547a529603:7c32d0cc75d7f3e348ca40d39c9efe834d18fd0cfbc79bdebc25bdb37b7206f57d79cf3dab9559d478126ae2050da4901a36a6bc07671f571365b8f11ae1303d"
+  },
+  {
+    "name": "Tim Kurikulum",
+    "email": "kurikulum@lms.sch.id",
+    "roleId": "kurikulum",
+    "passwordHash": "4e76a82b91c0cdaee8c7b7d530d752e3:46ff2d2e32cc856ce2225aa1dba8b6cf06e3faa565ca2525c9d439708e74e98b6b57cadd7ecff71a1cc0f83928d0ec9d27a8acdf6252b3b6867fc585409aba6f"
+  }
+]
