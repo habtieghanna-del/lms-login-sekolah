@@ -1,0 +1,12 @@
+{
+  "name": "lms-login-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Auth backend for LMS Sekolah login. Uses only Node's built-in http/crypto modules — no npm install required to run.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  }
+}
