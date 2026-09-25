@@ -20,4 +20,4 @@ export default function ProtectedRoute({ roleId, children }) {
     return <Navigate to="/" replace state={{ from: location }} />;
   }
   return children;
-    }
+}
