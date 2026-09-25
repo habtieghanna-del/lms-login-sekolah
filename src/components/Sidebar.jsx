@@ -1,5 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import LogoMark from "./Logo";
+import { logout } from "../auth";
 
 export default function Sidebar({ items }) {
   const navigate = useNavigate();
@@ -45,7 +46,10 @@ export default function Sidebar({ items }) {
       </nav>
 
       <button
-        onClick={() => navigate("/")}
+        onClick={() => {
+          logout();
+          navigate("/");
+        }}
         className="text-left px-[39px] pb-6 pt-4 text-[#8a8582] text-lg cursor-pointer hover:text-[#f27979]"
       >
         &larr; exit
