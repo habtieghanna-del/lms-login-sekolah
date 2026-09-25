@@ -3,7 +3,7 @@ import { getRoleById } from "./roles";
 const SESSION_KEY = "lms_session";
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
 
-// Basic RFC-5322-ish check â€” good enough for a login form, not a full validator.
+// Basic RFC-5322-ish check — good enough for a login form, not a full validator.
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export function validateCredentials(email, password) {
@@ -55,7 +55,7 @@ export async function logout() {
         headers: { Authorization: `Bearer ${session.token}` },
       });
     } catch {
-      // Best-effort â€” the local session is already cleared either way.
+      // Best-effort — the local session is already cleared either way.
     }
   }
 }
@@ -89,7 +89,7 @@ export async function verifySession() {
     }
     return true;
   } catch {
-    // Network hiccup â€” don't kick the user out for a dropped request.
+    // Network hiccup — don't kick the user out for a dropped request.
     return true;
   }
-          }
+}
